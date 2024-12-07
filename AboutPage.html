@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetarian Restaurant</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="AboutPagestyle.css">
+  <style>
+    .custom-background {
+      background-image: url('mockup/Restaurant.jpg'); /* Path to your image */
+      background-size: cover; /* Ensures the image covers the entire section */
+      background-position: center; /* Centers the image */
+      color: white; /* Optional: Changes text color for better contrast */
+      padding: 50px 0; /* Adjust padding to fit the content better */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="mockup/Vegetarian Restaurant logo.jpg" alt="Vegetarian Logo" width="30" height="30">
+          Vegetarian Restaurant
+        </a>
+        <!-- Static collapsible menu with d-lg-flex -->
+        <div class="d-lg-flex flex-lg-row align-items-lg-center w-100">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="Homepage.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="HomePage2.html">About Us</a></li>
+            <!-- Updated Contact Us link -->
+            <li class="nav-item">
+              <a class="nav-link"  href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Introduction Section -->
+  <main>
+    <section class="bg-light text-center p-5 custom-background">
+      <div class="container">
+        <p class="text-dark">
+          In 2015, Vegetarian Restaurant was founded with a vision to transform vegan dining. 
+          Driven by a love for fresh, seasonal ingredients and a dedication to sustainability, our founders created a place where plant-based cuisine meets creativity and sophistication.
+        </p>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Our Chefs Section -->
+  <section class="bg-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Chefs</h2>
+      <div class="row text-center">
+        <!-- Chef 1 -->
+        <div class="col-md-6">
+          <img src="mockup/Mike Loran.jpg" class="img-fluid rounded-circle mb-3" alt="Chef Mike Loran">
+          <h3>Mike Loran</h3>
+          <p>Chef Mike blends creativity with tradition, specializing in vegan cuisine. With a passion for fresh, local ingredients, each dish reflects a commitment to quality and flavor.</p>
+        </div>
+        <!-- Chef 2 -->
+        <div class="col-md-6">
+          <img src="mockup/Logan Caris.jpg" class="img-fluid rounded-circle mb-3" alt="Chef Logan Caris">
+          <h3>Logan Caris</h3>
+          <p>Supports the head chef in the kitchen, ensuring food preparation is efficient and high-quality, and stepping in when needed to manage staff.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>Follow us on:</p>
+      <a href="#" class="text-white me-3">Facebook</a>
+      <a href="#" class="text-white me-3">Instagram</a>
+      <a href="#" class="text-white">Twitter</a>
+      <address class="mt-3">
+        <strong>Get in Touch:</strong><br>
+        Ted Turner Drive Northwest, Atlanta, GA 30302
+      </address>
+    </div>
+  </footer>
+</body>
+</html>
