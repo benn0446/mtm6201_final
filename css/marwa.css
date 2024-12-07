@@ -1,0 +1,134 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header / Hero Section */
+header {
+    position: relative;
+    height: 100vh;
+    color: #fff;
+}
+
+header .position-relative {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header .btn-custom-green {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+header .btn-custom-green:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* About Us Section */
+#about {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#about h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.125rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+#about .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#about .card-body {
+    padding: 30px;
+}
+
+#about .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #28a745;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#about .card-text {
+    color: #6c757d;
+}
+
+/* CTA Section */
+#cta {
+    padding: 60px 0;
+    background-color: #28a745;
+    color: #fff;
+}
+
+#cta h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#cta p {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#cta .btn-custom-green {
+    background-color: #fff;
+    color: #28a745;
+    border-color: #28a745;
+}
+
+#cta .btn-custom-green:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
