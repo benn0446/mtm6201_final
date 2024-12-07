@@ -17,4 +17,4 @@ The website was designed with accessibility and responsiveness in mind. I used B
 ## Assets Used
 •⁠  ⁠*Bootstrap* (for the framework and components).
 •⁠  ⁠*Google Fonts* (for custom fonts).
-•⁠  ⁠*Unsplash* (for images used in the hero section and other parts of the website).
+•⁠  ⁠*Unsplash* (for images used in the hero section and other parts of the website).s
