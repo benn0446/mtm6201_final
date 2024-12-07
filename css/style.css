@@ -1,0 +1,75 @@
+/* Custom styles and adjustments */
+body {
+    font-family: 'Roboto', sans-serif; /* Updated for better readability */
+}
+
+h1, h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Ensuring responsiveness for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Custom green button */
+.btn-custom-green {
+    background-color: #28a745;  /* Green color */
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-custom-green:hover {
+    background-color: #218838;  /* Darker green for hover effect */
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Hero Section Overlay for better text visibility */
+header section {
+    background-size: cover;
+    background-position: center;
+}
+
+header .position-absolute {
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly darker for better contrast */
+}
+
+@media screen and (max-width: 768px) {
+    header section {
+        background-position: top center;
+    }
+
+    .btn-custom-green {
+        font-size: 1rem;
+    }
+}
+
+/* Fade-in-up animation for content */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
